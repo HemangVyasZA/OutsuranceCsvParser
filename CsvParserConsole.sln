@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsvParserConsole", "CsvParserConsole\CsvParserConsole.csproj", "{8A3FC7CD-6F5E-4F54-8D87-34E3D854379B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Outsurance.CsvParser", "CsvParser\Outsurance.CsvParser.csproj", "{763AB1D5-F4E3-4D7D-8D20-1C3D6537DC8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsvParserTest", "CsvParserTest\CsvParserTest.csproj", "{54981E88-AA23-4A71-87CF-B0E654DAAA2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8A3FC7CD-6F5E-4F54-8D87-34E3D854379B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8A3FC7CD-6F5E-4F54-8D87-34E3D854379B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8A3FC7CD-6F5E-4F54-8D87-34E3D854379B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8A3FC7CD-6F5E-4F54-8D87-34E3D854379B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{763AB1D5-F4E3-4D7D-8D20-1C3D6537DC8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{763AB1D5-F4E3-4D7D-8D20-1C3D6537DC8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{763AB1D5-F4E3-4D7D-8D20-1C3D6537DC8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{763AB1D5-F4E3-4D7D-8D20-1C3D6537DC8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54981E88-AA23-4A71-87CF-B0E654DAAA2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54981E88-AA23-4A71-87CF-B0E654DAAA2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54981E88-AA23-4A71-87CF-B0E654DAAA2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54981E88-AA23-4A71-87CF-B0E654DAAA2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
